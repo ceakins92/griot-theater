@@ -1,0 +1,104 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+}
+
+#sched{
+    border-bottom-style: solid;
+    border-bottom-color:rgba(0, 1, 7, 0.2);
+    border-bottom-width: thin;
+}
+
+#dates{
+    border-style: solid;
+    border-color:rgb(51, 51, 51);
+    border-width:1px;
+    background-color: lightgray;
+    font-size:large;
+    padding-top: 5px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.header{
+    background-image:linear-gradient(45deg,
+    rgba(0, 5, 5, 0.7),
+    rgba(0, 1, 7, 0.2)), url("../images/spacer.png");
+    width:100%;
+    height:300px;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    background-color: black;
+    display: grid 
+    
+    
+  }
+
+.hero-image{
+    background-image:url("../images/theater-image-background.png");
+    height:30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    
+
+}
+
+.hero-text{
+    color: rgb(250, 247, 247);
+    text-align:center;
+    position:relative ;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+
+
+
+
+footer{
+    width:100%;
+    height:5vh;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-block-end: 0px;
+}
+
+
+main{
+    overflow:auto;
+}
+
+
+#footer-menu{
+    background-image:url("../images/spacer.png");
+    width:100%;
+    height:400px;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    position: relative;
+}
+
+#footer-text{
+    color: rgb(250, 247, 247);
+    align-items: start;
+    le
+   
+}
