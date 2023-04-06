@@ -1,6 +1,8 @@
 body, html{
     height: 100%;
     margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(255, 255, 255);
 }
@@ -34,6 +36,12 @@ header{
 }
 
 .header{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    scroll-margin-left: 0px;
+    scroll-margin-right: 0px;
     background-image:linear-gradient(45deg,
     rgba(0, 5, 5, 0.7),
     rgba(0, 1, 7, 0.2)), url("../images/spacer.png");
@@ -44,6 +52,7 @@ header{
     background-position:center;
     background-color: black;
     display: grid 
+    
     
     
   }
@@ -89,7 +98,7 @@ main{
 #footer-menu{
     background-image:url("../images/spacer.png");
     width:100%;
-    height:400px;
+    height:800px;
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center;
